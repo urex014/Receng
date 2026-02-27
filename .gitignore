@@ -1,0 +1,20 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+# Node
+node_modules/
+
+# Python
+__pycache__/
+venv/
+env/
+
+# Uploads & Large ML Files
+uploads/
+*.onnx
+imagenet_class_index.json
+
+# OS files
+.DS_Store
